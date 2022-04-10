@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paint JS</title>
+  <link rel="stylesheet" href="./css/reset.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+<canvas id="jsCanvas" class="canvas"></canvas>
+<div class="controls">
+  <div class="controls__range">
+    <span class="value">5</span>
+    <input type="range" id="jsRange" min="1" max="10" value="5" step="0.1">
+  </div>
+  <div class="controls__btns">
+    <button type="button" id="btnBrushChange" class="btn">Brush (Default)</button>
+    <button type="button" id="btnModeChange" class="btn">Fill</button>
+    <button type="button" id="btnSave" class="btn">Save</button>
+    <button type="button" id="btnClear" class="btn btn_clear">Clear</button>
+  </div>
+  <div class="controls__colors" id="jsColors">
+    <div class="controls__color" style="background-color: #2c2c2c;"></div>
+    <div class="controls__color" style="background-color: #fff;"></div>
+    <div class="controls__color" style="background-color: #ff3b30;"></div>
+    <div class="controls__color" style="background-color: #ff9500;"></div>
+    <div class="controls__color" style="background-color: #fc0;"></div>
+    <div class="controls__color" style="background-color: #4cd963;"></div>
+    <div class="controls__color" style="background-color: #5ac8fa;"></div>
+    <div class="controls__color" style="background-color: #0579ff;"></div>
+    <div class="controls__color" style="background-color: #5856d6;"></div>
+  </div>
+</div>
+
+<!-- Script -->
+<!-- <script src="app.js"></script> -->
+<script src="app_study.js"></script>
+</body>
+</html>
